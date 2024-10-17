@@ -10,6 +10,9 @@ class Shourov_Tutorials {
     private function __construct() {
         $this->require_classes();
     }
+    /**
+     * this is main loader file
+     */
     public static function get_instance() {
         if (null === self::$instance) {
             self::$instance = new self();
