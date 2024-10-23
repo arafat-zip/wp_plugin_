@@ -33,6 +33,9 @@ class Shourov_Tutorials {
         new Shourov_Tutorials_Chapter_For_Books();
     }
 }
+/**
+ * here we will call our main class
+ */
 
 Shourov_Tutorials::get_instance();
 
